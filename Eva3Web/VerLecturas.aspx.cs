@@ -49,15 +49,5 @@ namespace Eva3Web
             }
         }
 
-        protected void medidorDd1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (this.medidorDd1.SelectedItem != null)
-            {
-                string numeroLec = this.medidorDd1.SelectedItem.Value;
-
-                cargaGrilla();
-            }
-        }
-
     }
 }

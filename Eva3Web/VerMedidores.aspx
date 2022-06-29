@@ -13,7 +13,6 @@
                         <asp:DropDownList AutoPostBack="true" OnSelectedIndexChanged="tipoDb1_SelectedIndexChanged" runat="server" ID="tipoDb1">
                             <asp:ListItem Value="1" Text="Analogo"></asp:ListItem>
                             <asp:ListItem Value="2" Text="Digital"></asp:ListItem>
-                            <%--<asp:ListItem Value="3" Text="6000"></asp:ListItem>--%>
                         </asp:DropDownList>
 
                     </div>
@@ -23,9 +22,7 @@
                         AutoGenerateColumns="false" runat="server" ID="grillaMedidores">
                         <Columns>
                             <asp:BoundField DataField="Numero" HeaderText="Numero Medidor" />
-                            <%--<asp:BoundField DataField="Fecha" HeaderText="Fecha Medidor" />--%>
                             <asp:BoundField DataField="TipoTxt" HeaderText="Tipo Rewards" />
-                            <%--<asp:BoundField DataField="BebidaFavorita.Numero" HeaderText="Favorita" />--%>
                             <asp:TemplateField>
                                 <ItemTemplate>
                                     <asp:Button 

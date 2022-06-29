@@ -8,7 +8,7 @@
             </div>
             <div class="card">
                 <div class="card-header bg-dark text-white">
-                    <h3>Agregar Cliente</h3>
+                    <h3>Agregar Medidor</h3>
                 </div>
                 <div class="card-body">
                     <div class="form-group">
@@ -21,7 +21,6 @@
                         <asp:RadioButtonList runat="server" ID="tipoRb1">
                             <asp:ListItem Selected="True" Value="1" Text="Analogo"></asp:ListItem>
                             <asp:ListItem Value="2" Text="Digital"></asp:ListItem>
-                            <%--<asp:ListItem Value="3" Text="6000"></asp:ListItem>--%>
                         </asp:RadioButtonList>
                     </div>
                     <div class="form-group">
